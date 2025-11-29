@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace untitledGame
+namespace untitledGame.Enums
 {
     public enum CharacterState
     {
