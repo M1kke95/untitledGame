@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Micha\\source\\repos\\untitledGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B434728-1BEF-421B-A370-04952133B29C}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B434728-1BEF-421B-A370-04952133B29C}|untitledGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +22,29 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Player\\Player.cs",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Player\\Player.cs",
+              "RelativeToolTip": "Player\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T11:07:48.646Z",
+              "WhenOpened": "2025-11-20T13:46:11.112Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerStats.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Player\\PlayerStats.cs",
+              "RelativeDocumentMoniker": "Player\\PlayerStats.cs",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Player\\PlayerStats.cs",
+              "RelativeToolTip": "Player\\PlayerStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:49:26.06Z",
               "EditorCaption": ""
             }
           ]

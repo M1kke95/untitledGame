@@ -7,9 +7,11 @@ namespace untitledGame.Player
     internal class Player
     {
         public PlayerStats Stats { get; private set; }
-    
+        public PlayerInventory Inventory { get; private set; }
 
-       public Player()
+        private CharacterState currentState;
+
+        public Player()
         {
             Stats = new PlayerStats
             {
@@ -19,6 +21,46 @@ namespace untitledGame.Player
                 Defense = 5.0f
             };
 
+            currentState = CharacterState.Idle;
+
         }
+
+        void update() { }
+
+        void updateState(CharacterState newState)
+        {
+            currentState = newState;
+        }
+
+        private void MoveCharacter() { }
+
+        private void UpdateInventory() { }
+
+        private void UseItem() { }
+
+        private void EquipItem() { }
+
+        private void UnequipItem() { }
+
+        private void InteractWithEnvironment() { }
+
+        private void CraftItem() { }
+
+        private void LevelUp() { }
+        private void GainExperience(int amount) { }
+
+        private void SaveGame() { }
+        private void LoadGame() { }
+
+        private void PerformAttack() { }
+
+        private void MineResource() { }
+
+        private void TalkToNPC() { }
+
+        private void HandleDeath() { }
+        private void RegenerateStamina() { }
+        
+
     }
 }
