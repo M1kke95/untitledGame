@@ -4,7 +4,7 @@ using System.Text;
 
 namespace untitledGame.Items
 {
-    internal class Tool : Item
+    internal class Tool
     {
         
     }

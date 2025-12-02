@@ -5,7 +5,7 @@ using untitledGame.Player;
 Player player = new Player();
 while (true)
 {
-    Console.WriteLine("Hva vil du gjøre? (move, attack, idle, mine)");
+    Console.WriteLine("Hva vil du gjøre? (move, attack, idle, mine,)");
     string input = Console.ReadLine().ToLower();
 
     switch (input)

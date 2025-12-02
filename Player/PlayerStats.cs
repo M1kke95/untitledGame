@@ -11,5 +11,9 @@ namespace untitledGame.Player
         public float AttackPower { get; set; }
         public float Defense { get; set; }
 
+        public float Experience { get; set; }
+
+        //todo: add more stats as needed + Add a method to level up stats correctly based on experience
+
     }
 }

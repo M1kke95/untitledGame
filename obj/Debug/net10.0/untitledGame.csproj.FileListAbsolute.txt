@@ -1,0 +1,15 @@
+C:\Users\Micha\source\repos\untitledGame\obj\Debug\net10.0\untitledGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Micha\source\repos\untitledGame\obj\Debug\net10.0\untitledGame.AssemblyInfoInputs.cache
+C:\Users\Micha\source\repos\untitledGame\obj\Debug\net10.0\untitledGame.AssemblyInfo.cs
+C:\Users\Micha\source\repos\untitledGame\obj\Debug\net10.0\untitledGame.csproj.CoreCompileInputs.cache
+C:\Users\Micha\source\repos\untitledGame\obj\Debug\net10.0\untitledGame.sourcelink.json
+C:\Users\Micha\source\repos\untitledGame\bin\Debug\net10.0\untitledGame.exe
+C:\Users\Micha\source\repos\untitledGame\bin\Debug\net10.0\untitledGame.deps.json
+C:\Users\Micha\source\repos\untitledGame\bin\Debug\net10.0\untitledGame.runtimeconfig.json
+C:\Users\Micha\source\repos\untitledGame\bin\Debug\net10.0\untitledGame.dll
+C:\Users\Micha\source\repos\untitledGame\bin\Debug\net10.0\untitledGame.pdb
+C:\Users\Micha\source\repos\untitledGame\obj\Debug\net10.0\untitledGame.dll
+C:\Users\Micha\source\repos\untitledGame\obj\Debug\net10.0\refint\untitledGame.dll
+C:\Users\Micha\source\repos\untitledGame\obj\Debug\net10.0\untitledGame.pdb
+C:\Users\Micha\source\repos\untitledGame\obj\Debug\net10.0\untitledGame.genruntimeconfig.cache
+C:\Users\Micha\source\repos\untitledGame\obj\Debug\net10.0\ref\untitledGame.dll
