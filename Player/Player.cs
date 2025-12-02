@@ -26,9 +26,9 @@ namespace untitledGame.Player
 
         }
 
-        void update() { }
+        public void update() { }
 
-        void updateState(CharacterState newState)
+        public void updateState(CharacterState newState)
         {
             currentState = newState;
         }
@@ -43,6 +43,7 @@ namespace untitledGame.Player
 
         private void UnequipItem() { }
 
+        private void Interact() { }
         private void InteractWithEnvironment() { }
 
         private void CraftItem() { }
@@ -61,6 +62,7 @@ namespace untitledGame.Player
 
         private void HandleDeath() { }
         private void RegenerateStamina() { }
+
         
 
     }

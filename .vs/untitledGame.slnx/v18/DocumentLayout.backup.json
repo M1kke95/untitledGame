@@ -7,12 +7,28 @@
       "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:player\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\characterstates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:characterstates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\items\\tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:items\\tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\enums\\weapontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:enums\\weapontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\items\\armor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:items\\armor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\items\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:items\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\items\\equipmentslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:items\\equipmentslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +48,7 @@
               "RelativeDocumentMoniker": "Player\\Player.cs",
               "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Player\\Player.cs",
               "RelativeToolTip": "Player\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T13:46:11.112Z",
               "IsPinned": true,
@@ -40,29 +56,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CharacterStates.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\CharacterStates.cs",
-              "RelativeDocumentMoniker": "CharacterStates.cs",
-              "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\CharacterStates.cs",
-              "RelativeToolTip": "CharacterStates.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Item.cs",
+              "RelativeDocumentMoniker": "Items\\Item.cs",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Item.cs",
+              "RelativeToolTip": "Items\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T21:52:28.721Z",
+              "WhenOpened": "2025-11-29T22:14:55.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerStats.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Player\\PlayerStats.cs",
-              "RelativeDocumentMoniker": "Player\\PlayerStats.cs",
-              "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Player\\PlayerStats.cs",
-              "RelativeToolTip": "Player\\PlayerStats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "WeaponType.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Enums\\WeaponType.cs",
+              "RelativeDocumentMoniker": "Enums\\WeaponType.cs",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Enums\\WeaponType.cs",
+              "RelativeToolTip": "Enums\\WeaponType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T13:49:26.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T22:12:39.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Armor.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Armor.cs",
+              "RelativeDocumentMoniker": "Items\\Armor.cs",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Armor.cs",
+              "RelativeToolTip": "Items\\Armor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T22:07:58.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tool.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Tool.cs",
+              "RelativeDocumentMoniker": "Items\\Tool.cs",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Tool.cs",
+              "RelativeToolTip": "Items\\Tool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T22:07:54.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Weapon.cs",
+              "RelativeDocumentMoniker": "Items\\Weapon.cs",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Weapon.cs",
+              "RelativeToolTip": "Items\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T22:07:49.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EquipmentSlot.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\EquipmentSlot.cs",
+              "RelativeDocumentMoniker": "Items\\EquipmentSlot.cs",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\EquipmentSlot.cs",
+              "RelativeToolTip": "Items\\EquipmentSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T22:07:30.002Z"
             }
           ]
         }
