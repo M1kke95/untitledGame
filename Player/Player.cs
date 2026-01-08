@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using untitledGame.Enums;
+using untitledGame.Items;
 
 namespace untitledGame.Player
 {
@@ -11,6 +12,11 @@ namespace untitledGame.Player
         public PlayerInventory Inventory { get; private set; }
 
         private CharacterState currentState;
+
+        private Weapon equippedWeapon;
+
+        private Tool equippedTool;
+
 
 
         public Player()
@@ -22,9 +28,12 @@ namespace untitledGame.Player
                 AttackPower = 10.0f,
                 Defense = 5.0f,
                 Experience = 0.0f
+                
             };
             PlayerInventory inventory = new PlayerInventory();
             currentState = CharacterState.Idle;
+            equippedWeapon = new Weapon("Basic Sword", "A simple sword", 5f, 1, 10f);
+            equippedTool = new Tool("Basic Axe", "A simple wooden axe", 6f, 1);
 
         }
 
@@ -58,8 +67,10 @@ namespace untitledGame.Player
             currentState = newState;
         }
 
-        private void MoveCharacter() { 
+        private void MoveCharacter()
+        {
             Console.WriteLine("Player is moving");
+            
         }
 
         private void UpdateInventory(Player player) { }
@@ -70,23 +81,31 @@ namespace untitledGame.Player
 
         private void UnequipItem(/* item param*/) { }
 
-        private void Interact(/*interractable param */) { }
+        private void Interact(/*interractable param npc, environment etc */) { }
         private void InteractWithEnvironment() { }
 
         private void CraftItem() { }
 
         private void LevelUp() { }
-        private void GainExperience(int amount) { }
+        private void GainExperience(int amount)
+        {
+            // experience += amount; if(experience + amount > 100) LevelUp() remainingXP = amount -100; if(remainingXP>0 experience = remainingXP; 
+        }
+
 
         private void SaveGame() { }
         private void LoadGame() { }
 
-        private void PerformAttack(/* weapon param */) {
+        private void PerformAttack()
+        {
             Console.WriteLine("Player is attacking");
+            //use equippedWeapon to deal damage
         }
 
-        private void MineResource(/*Tool param + resource param*/) { 
+        private void MineResource(/*Tool param + resource param*/)
+        {
             Console.WriteLine("Player is mining");
+            //use equippedTool to mine resource
         }
 
 

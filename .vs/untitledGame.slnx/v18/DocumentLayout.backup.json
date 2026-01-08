@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Micha\\source\\repos\\untitledGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\items\\tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:items\\tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\items\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:items\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|c:\\users\\micha\\source\\repos\\untitledgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAFC2C2-3095-3A41-FDA0-57867FB3986D}|untitledGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,13 +34,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Player\\Player.cs",
               "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Player\\Player.cs",
               "RelativeToolTip": "Player\\Player.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAUwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T13:46:11.112Z",
               "IsPinned": true,
@@ -40,26 +48,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Tool.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Tool.cs",
-              "RelativeDocumentMoniker": "Items\\Tool.cs",
-              "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Tool.cs",
-              "RelativeToolTip": "Items\\Tool.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Item.cs",
+              "RelativeDocumentMoniker": "Items\\Item.cs",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Item.cs",
+              "RelativeToolTip": "Items\\Item.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T22:34:28.653Z",
+              "WhenOpened": "2026-01-07T23:58:06.984Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Tool.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Tool.cs",
+              "RelativeDocumentMoniker": "Items\\Tool.cs",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Tool.cs",
+              "RelativeToolTip": "Items\\Tool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T22:34:28.653Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Weapon.cs",
+              "RelativeDocumentMoniker": "Items\\Weapon.cs",
+              "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Items\\Weapon.cs",
+              "RelativeToolTip": "Items\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T00:07:25.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Micha\\source\\repos\\untitledGame\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T22:29:41.595Z",
               "EditorCaption": ""

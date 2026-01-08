@@ -13,14 +13,39 @@ namespace untitledGame.Items
         public int MaxStackSize { get; private set; }
 
 
-        protected Items(string name, string description, float weight, float durability, int maxStackSize)
+        protected Items(string name, string description, float weight, int maxStackSize)
         {
             Name = name;
             Description = description;
             Weight = weight;
-            Durability = durability;
+            Durability = 100;
             MaxStackSize = maxStackSize;
         }
+
+        public void DurabilityDecrease(float amount = 1.0f)
+        {
+            Durability -= amount;
+            if (Durability < 0f)
+            {
+                Durability = 0f;
+            }
+        }
+
+        public void RepairTool(float repairAmount)
+        {
+
+            if(Durability < 100f)
+            {
+                Durability += repairAmount;
+                if (Durability > 100.0f)
+                {
+                    Durability = 100.0f;
+                }
+               
+            }
+            //Might change later to not repair increments and instead fully repair
+        }
     }
+
 
 }
