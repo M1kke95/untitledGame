@@ -13,6 +13,8 @@ namespace untitledGame.Player
 
         public float Experience { get; set; }
 
+       public int Level { get; set; } = 1;
+
         //todo: add more stats as needed + Add a method to level up stats correctly based on experience
 
     }

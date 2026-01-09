@@ -4,7 +4,7 @@ using System.Text;
 
 namespace untitledGame.Items
 {
-    public abstract class Items
+    public abstract class Item
     {
         public String Name { get; private set; }
         public String Description { get; private set; }
@@ -13,7 +13,7 @@ namespace untitledGame.Items
         public int MaxStackSize { get; private set; }
 
 
-        protected Items(string name, string description, float weight, int maxStackSize)
+        protected Item(string name, string description, float weight, int maxStackSize)
         {
             Name = name;
             Description = description;

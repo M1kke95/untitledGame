@@ -4,7 +4,7 @@ using System.Text;
 
 namespace untitledGame.Items
 {
-    public class Tool : Items
+    public class Tool : Item
     {
         //might add specific properties for tools later, like mining speed and tier. keeping it simple for now.
         public Tool(string name, string description, float weight, int maxStackSize)

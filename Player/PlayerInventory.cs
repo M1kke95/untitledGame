@@ -10,9 +10,9 @@ namespace untitledGame.Player
         private List<string> inventory = new List<string>(16);
 
 
-        public void addItemToInventory(string item)
+        public void addItemToInventory(string number /*decide on object or string*/)
         {
-            inventory.Add(item);
+            inventory.Add(number /*item*/);
         }
 
         public void removeItemFromInventory(string item)

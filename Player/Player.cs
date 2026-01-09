@@ -17,6 +17,11 @@ namespace untitledGame.Player
 
         private Tool equippedTool;
 
+        private Item[] equippedArmor = new Item[4]; // Head, Chest, Legs, Feet
+
+        private Item equippedItemInHand;
+
+
 
 
         public Player()
@@ -27,10 +32,11 @@ namespace untitledGame.Player
                 Stamina = 100.0f,
                 AttackPower = 10.0f,
                 Defense = 5.0f,
-                Experience = 0.0f
-                
+                Experience = 0.0f,
+                Level = 1
+
             };
-            PlayerInventory inventory = new PlayerInventory();
+            Inventory = new PlayerInventory();
             currentState = CharacterState.Idle;
             equippedWeapon = new Weapon("Basic Sword", "A simple sword", 5f, 1, 10f);
             equippedTool = new Tool("Basic Axe", "A simple wooden axe", 6f, 1);
@@ -70,28 +76,77 @@ namespace untitledGame.Player
         private void MoveCharacter()
         {
             Console.WriteLine("Player is moving");
-            
+
         }
 
-        private void UpdateInventory(Player player) { }
+        // Inventory Management must be called when an item is picked up or removed from inventory 
+        //TODO: add item param
+        private void UpdateInventory(/*item to add*/)
+        {
+            if(Inventory.getInventory().Count != 0)
+            {
+                Inventory.addItemToInventory("itemtoadd");
+            }
+        }
 
-        private void UseItem(/* item param*/) { }
 
-        private void EquipItem(/* item param*/) { }
 
-        private void UnequipItem(/* item param*/) { }
+
+        private void UseItem(Item item) { }
+
+        private void EquipItem(Item item)
+        {
+            
+            if (equippedItemInHand != null)
+            {
+                UnequipItem(equippedItemInHand);
+            }
+
+            equippedItemInHand = item;
+
+            // Type check to see if item is a weapon or tool, will add different logic for armor etc later
+            if (item is Weapon weapon)
+            {
+                equippedWeapon = weapon;
+            }
+            else if (item is Tool tool)
+            {
+                equippedTool = tool;
+            }
+
+            Inventory.removeItemFromInventory(item.Name);
+        }
+        
+
+        private void UnequipItem(Item item)
+        {
+            Inventory.addItemToInventory(item.Name);
+            equippedItemInHand = null;
+            equippedWeapon = null;
+            equippedTool = null;
+        }
 
         private void Interact(/*interractable param npc, environment etc */) { }
         private void InteractWithEnvironment() { }
 
         private void CraftItem() { }
 
-        private void LevelUp() { }
-        private void GainExperience(int amount)
+        private void LevelUp()
         {
-            // experience += amount; if(experience + amount > 100) LevelUp() remainingXP = amount -100; if(remainingXP>0 experience = remainingXP; 
+            Stats.Level += 1;
         }
 
+        private void GainExperience(int amount)
+        {
+            Stats.Experience += amount;
+            
+            while (Stats.Experience >= 100)
+            {
+                Stats.Experience -= 100;
+                LevelUp();
+            }
+
+        }
 
         private void SaveGame() { }
         private void LoadGame() { }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace untitledGame.Items
 {
-    public class Weapon : Items
+    public class Weapon : Item
     {
         public float AttackPower { get; private set; }
 
